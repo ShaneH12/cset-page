@@ -255,3 +255,21 @@ h1 h2 {
 	text-decoration: underline;
 	color: #14e9b6;
 }
+
+/* current students */
+
+.current-students .mono {
+	width: 50%;
+}
+
+.image-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.image-flex img {
+	display: flex;
+	margin: 5px;
+	width: 220px;
+	height: 220px;
+}
