@@ -105,7 +105,7 @@ h1 h2 {
 
 }
 
-.hero-heading, .subheading {
+.hero-heading .subheading {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
 	text-align: center;
@@ -137,8 +137,8 @@ h1 h2 {
 
 }
 
-.the-abs, .contentheader,
-.the-abs, .mono, .the-abs, .copy {
+.the-abs .contentheader,
+.the-abs .mono .the-abs, .copy {
 	display: flex;
 
 }
@@ -168,11 +168,11 @@ h1 h2 {
 	color: #021d2c;
 }
 
-.the-abs, .content-header {
+.the-abs .content-header {
 	margin: 15px 0;
 }
 
-.the-abs, .mono {
+.the-abs .mono {
 	margin: 15px 0
 }
 
@@ -180,13 +180,15 @@ h1 h2 {
 	margin: 15px 30px;
 }
 
-.flex-row, .copy:first-of-type {
+.flex-row .copy:first-of-type {
 	margin-left: 0;
 }
 
 .thirds {
 	margin: 5px;
 }
+
+
 
 .sidebar {
 	background: rgba(20,233,183,1);
@@ -195,8 +197,9 @@ h1 h2 {
 	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 	display: inline-block;
-	width: 40%;
-	padding: 95px 30px 100px 60px;
+	width: 30%;
+	padding: 95px 40px 100px 60px;
+	vertical-align: top;
 
 }
 
@@ -212,4 +215,39 @@ h1 h2 {
 
 .objectives {
 	margin-left: 15px;
+}
+
+/* Schedule */
+
+.schedule {
+	display: inline-block;
+	width: 40%;
+	margin: 90px 70px 80px;
+	vertical-align: top;
+}
+
+.schedule .contentheader {
+	margin: 40px 0 15px;
+
+}
+
+.smallheader {
+	font-size: 21px;
+}
+
+.linksthree {
+	padding: 10px;
+	text-align: center;
+}
+.linkstwo {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+
+.linkstwo:hover {
+	text-decoration: underline;
+	color: #14e9b6;
 }
