@@ -57,6 +57,7 @@ h1 h2 {
 
 /* header */
 
+
 .site-header {
 	background-color: #03151c;
 	height: 76px;
@@ -303,4 +304,39 @@ footer .nav-link:hover {
 	text-align: right;
 	font-size: 14px;
 	margin: 15px 0 10px;
+}
+
+@media only screen and (max-width: 786px) {
+   .sidebar {
+    width: 90%;
+  }
+	.schedule {
+		width: 90%;
+	}
+	.siteheader {
+		width: 90%;
+	}
+	.header-nav {
+		display: block;
+		background-color: #14e9b6;
+		color: black;
+		width: 100%;
+	}
+	.nav-link {
+	display: inline;
+	color: black;
+	align: center;
+	}
+	.nav-links span {
+		color: black;
+	}
+	.current-students p.mono {
+		width: 100%;
+	}
+	footer .footer-copy {
+		text-align: center;
+	}
+	footer .nav-links {
+		text-align: center;
+	}
 }
